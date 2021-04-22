@@ -5,6 +5,11 @@
 
 using namespace std;
 void train(void);
+void predict(void);
+
+
+
+
 
 class Classifier
 {
@@ -12,8 +17,17 @@ class Classifier
 	train();
 };
 
+
+
+
+
 void train(void)
 {
 	printf("train");
+
+}
+void predict(void)
+{
+	printf("predict");
 
 }
